@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b73c9a-f8a0-43b5-9628-11153a58656b" name="Changes" comment="final version part 2">
+    <list default="true" id="e0b73c9a-f8a0-43b5-9628-11153a58656b" name="Changes" comment="final version part 4">
+      <change afterPath="$PROJECT_DIR$/.idea/die-melodie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readaloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/readaloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertedNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertedNotes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akasp/OneDrive/Desktop/die-melodie/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/akasp/OneDrive/Desktop/FH/4.Semester/HEIDI/die-melodie",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\akasp\OneDrive\Desktop\die-melodie\templates" />
@@ -74,7 +75,7 @@
       <recent name="C:\Users\akasp\OneDrive\Desktop\python-simple-website\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.readaloud">
+  <component name="RunManager" selected="Flask server.die-melodie">
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
@@ -144,6 +145,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="die-melodie" type="Python.FlaskServer">
+      <module name="die-melodie" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="python-simple-website" type="Python.FlaskServer">
       <module name="python-simple-website" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -162,8 +178,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.readaloud" />
-        <item itemvalue="HTTP Request.All in generated-requests" />
         <item itemvalue="Python.main" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
         <item itemvalue="Python.play" />
       </list>
     </recent_temporary>
@@ -194,7 +210,8 @@
       <workItem from="1686087156786" duration="6094000" />
       <workItem from="1686232807586" duration="5481000" />
       <workItem from="1686665499916" duration="14025000" />
-      <workItem from="1686835767315" duration="1373000" />
+      <workItem from="1686835767315" duration="3184000" />
+      <workItem from="1687687786632" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0">
       <created>1681722389325</created>
@@ -301,7 +318,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686684655676</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="final version part 2">
+      <created>1686837473149</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686837473149</updated>
+    </task>
+    <task id="LOCAL-00017" summary="final version part 4">
+      <created>1687687816049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687687816049</updated>
+    </task>
+    <task id="LOCAL-00018" summary="final version part 4">
+      <created>1687688097709</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687688097709</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,12 +366,13 @@
     <MESSAGE value="old version" />
     <MESSAGE value="final version part 1" />
     <MESSAGE value="final version part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version part 2" />
+    <MESSAGE value="final version part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version part 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/die_melodie$main.coverage" NAME="main Coverage Results" MODIFIED="1686234407118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/die_melodie$main.coverage" NAME="main Coverage Results" MODIFIED="1686840517210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/die_melodie$test.coverage" NAME="test Coverage Results" MODIFIED="1681756891613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/die_melodie$readaloud.coverage" NAME="readaloud Coverage Results" MODIFIED="1686837128513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/die_melodie$readaloud.coverage" NAME="readaloud Coverage Results" MODIFIED="1686840528504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/die_melodie$play.coverage" NAME="play Coverage Results" MODIFIED="1681853713275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/die_melodie$python_simple_website.coverage" NAME="python-simple-website Coverage Results" MODIFIED="1686233980315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
