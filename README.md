@@ -2,6 +2,11 @@
 
 This application is created by the students from FH Technikum Vienna in hopes to fill a challenging daily life with joy and melody.
 
+
+![Alt text](/logo.png "Optional title")
+
+
+
 ## Setting Up The Project
 
 - ### Running The Server
